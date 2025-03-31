@@ -1,0 +1,5 @@
+requests  #To fetch data from the arXiv API
+pdfplumber  #To extract text from PDF files
+transformers  #To use AI-based summarization
+scikit-learn   #To extract important keywords
+streamlit     #To build a simple web app
