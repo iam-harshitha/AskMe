@@ -8,7 +8,7 @@ from src.fetch_papers import fetch_arxiv_papers
 uploads_dir = "uploads"
 os.makedirs(uploads_dir, exist_ok=True)
 
-st.title("📚 AI-Powered Research Assistant")
+st.title("📚 AskMe")
 
 # User selection - Choose either Upload or Keyword Search
 option = st.radio("Select an Option:", ["🔄 Upload Research Paper", "🔎 Search by Keyword"])
