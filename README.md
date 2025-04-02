@@ -47,9 +47,6 @@ This project was designed to assist **researchers, students, and professionals**
 - Implemented **conditional UI rendering** (hiding one input section when the other is active).  
 - Used **Markdown formatting in Streamlit** to present fetched research papers in a **readable** format.  
 
-### 🚀 **5. Deployment (Optional for Future)**  
-- The project is **currently running locally**, but it can be deployed on **Streamlit Sharing, AWS, or Hugging Face Spaces**.  
-
 ---
 
 ## 🛠️ Tech Stack  
