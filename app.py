@@ -4,7 +4,7 @@ from src.process_pdf import extract_text_from_pdf
 from src.summarize import summarize_text
 from src.fetch_papers import fetch_arxiv_papers
 
-# Ensure 'uploads/' directory exists
+# uploading the file to uploads directory
 uploads_dir = "uploads"
 os.makedirs(uploads_dir, exist_ok=True)
 
