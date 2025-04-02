@@ -27,6 +27,45 @@ An intelligent research assistant that extracts, summarizes, and finds relevant 
 
 ---
 
+## 🏗️ How I Built This Project  
+
+This project was designed to assist **researchers, students, and professionals** in quickly accessing relevant research papers. Here’s how I built it:  
+
+### 📂 **1. Data Extraction & Text Processing**  
+- Used **pdfplumber** to extract text from research papers in PDF format.  
+- Ensured **entire content** is read before summarization.  
+
+### 📝 **2. Text Summarization**  
+- Implemented **Hugging Face’s Transformers library** to generate a **concise and informative summary**.    
+
+### 🔍 **3. Finding Related Papers on arXiv**  
+- Used **requests** to interact with the **arXiv API**.  
+- Applied **intelligent query matching** to ensure **highly relevant** papers are retrieved (not random ones).  
+
+### 🖥️ **4. Building the Web Application**  
+- Developed a **Streamlit-based interactive UI** to allow easy use.  
+- Implemented **conditional UI rendering** (hiding one input section when the other is active).  
+- Used **Markdown formatting in Streamlit** to present fetched research papers in a **readable** format.  
+
+### 🚀 **5. Deployment (Optional for Future)**  
+- The project is **currently running locally**, but it can be deployed on **Streamlit Sharing, AWS, or Hugging Face Spaces**.  
+
+---
+
+## 🛠️ Tech Stack  
+
+| **Technology**    | **Usage** |
+|------------------|------------------------------------------------|
+| **Python**       | Core programming language |
+| **Streamlit**    | Web framework for building the interactive UI |
+| **pdfplumber**   | Extracting text from PDF research papers |
+| **Transformers (Hugging Face)** | NLP model for research paper summarization |
+| **Requests**     | Fetching research papers from arXiv API |
+
+---
+
+
+
 ## 📷 Screenshots  
 
 Here’s how the **AskMe** looks in action:  
